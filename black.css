@@ -1,0 +1,44 @@
+body {
+    font-family: poppins;
+    background-color: #008000;
+    text-align: center;
+    background-size: cover;
+}
+h1 {
+    color: yellow;
+    font-weight: bold;
+}
+#message-er {
+    color: #fff;
+    font-style: italic;
+}
+#sum-er {
+    color: #fff;
+}
+#cash-er {
+    color: #fff;
+}
+#price-er {
+    color: #fff;
+}
+#card-er {
+    color: #fff;
+}
+button {
+    padding: 15px;
+    color: #008000;
+    background-color: yellow;
+    border-radius: 9px;
+    font-weight: bold;
+}
+button:hover {
+    color: #ffff00;
+    background-color: #008000;
+}
+@media screen and(max-width: 960px) {
+    body {
+        height: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+}
